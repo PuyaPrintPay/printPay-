@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PrintPay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    #message {
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+    }
+  </style>
+</head>
+<body onclick="showMessage()">
+  <div id="message">Click anywhere to make a payment</div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent = "Thank you for your payment with PrintPay";
+    }
+  </script>
+</body>
+</html>
+		
